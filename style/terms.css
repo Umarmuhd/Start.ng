@@ -285,6 +285,27 @@ hr {
     box-sizing: border-box;
   }
 
+  .nav-links {
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.nav-links li {
+		padding: 0 10px;
+	}
+	.hamburger {
+		display: block;
+		margin-right: 15px;
+		margin-top: -15px;
+		position: relative;
+	}
+
+	.nav-links.show {
+		display: flex;
+	}
+
   .header-wrapper img {
     margin-left: 20px;
     height: 100px;
