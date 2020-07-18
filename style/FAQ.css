@@ -16,7 +16,7 @@
 }
 
 header{
-	background-image: url(img2.jpg);
+	background-image: url(../img2.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -96,7 +96,7 @@ header input {
 	width: 250px;
 	position: relative;
 	margin-left: 1095px;
-	margin-top: 0;
+	margin-top: -38px;
 	z-index: 1;
 }
 
