@@ -231,6 +231,7 @@ li:nth-last-of-type(1) {
   width: 100%;
   height: 368px;
 }
+/* Animar=tion */
 
 .rotate {
   animation: rotation 60s;
@@ -252,6 +253,35 @@ li:nth-last-of-type(1) {
     transform: rotate(359deg);
   }
 }
+
+.curriculum-container h2{
+  animation: fadeToRight 800ms forwards cubic-bezier(0.22, 0.32, 0, 1.54);
+  opacity: 0;
+}
+@keyframes fadeToRight{
+  from{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.curriculum-container p{
+  animation: fadeIn 800ms forwards;
+  opacity: 0;
+  animation-delay: 500ms;
+}
+
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+}
+
 
 .computer-image {
   width: 620px;
