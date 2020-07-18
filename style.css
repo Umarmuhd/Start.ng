@@ -573,8 +573,15 @@ hr {
     top: 70px;
   }
   .hero-container {
+    background: #24116a url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+    max-width: 1440px;
+    align-items: center;
     padding-top: 81px;
   }
+  
   header {
     padding-left: 35px;
   }
