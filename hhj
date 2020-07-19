@@ -1,0 +1,46 @@
+<h1 class="main-header">
+        Become a Developer in less time than expected!
+      </h1>
+      <p class="header-paragraph">
+        Start.ng offers the best on hands practice in the world of
+        programming. The Training is for complete beginners who wants to
+        learn the basics of software development
+      </p>
+
+      <div class="get-started">
+        <form action="#">
+          <div class="col-lg mb-3">
+            <div class="input-group custom-btn">
+              <input type="email" class="form-control start-now rounded-0" id="enterEmail" placeholder="Enter email"
+                aria-describedby="inputGroupPrepend2" required />
+              <div class="input-group-prepend">
+                <input type="submit" value="Start now" onclick=""
+                  class="btn btn-primary btn-sm rounded-0 hide-on-mobile" id="inputGroupPrepend2" data-toggle="modal"
+                  data-target=".bd-example-modal-lg" />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Button trigger modal -->
+
+      <!-- Modal -->
+
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+
+            <div class="purple-container">
+              <img src="images/Robot head.svg" alt="" />
+            </div>
+            <h3 class="modal-head">Unfortunately, Registration process has closed</h3>
+            <p class="modal-paragraph">However, we can notify you when the next one would commence</p>
+            <button type="button" class="modal-close-btn" data-dismiss="modal">Close</button>
+
+
+
+          </div>
+        </div>
+      </div>
