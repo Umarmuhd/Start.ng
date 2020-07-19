@@ -6,7 +6,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #000000;
-  overflow-x: hidden;
+  
 }
 
 header {
@@ -711,6 +711,7 @@ hr {
 
   #testimonials {
     padding: 0 13px;
+    overflow-x: hidden;
   }
   .testimonial-heading {
     font-size: 24px;
